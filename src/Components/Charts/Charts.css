@@ -1,0 +1,10 @@
+.charts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  width: 60%;
+  margin: 1rem 1rem;
+  background-color: whitesmoke;
+}
