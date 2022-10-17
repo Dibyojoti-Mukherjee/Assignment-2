@@ -15,8 +15,7 @@ const projectStatus = [
 ];
 
 function App() {
-  const [isPSClicked, setPSClicked] = useState(false);
-  const setIsClick = (value) => setPSClicked(value);
+ 
   return (
     // <div className='App'>
     //   <SideBar isClicked={setIsClick}></SideBar>

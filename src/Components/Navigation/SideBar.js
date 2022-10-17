@@ -57,7 +57,7 @@ const Navbar = styled.div`
 function SideBar(props) {
   const [isClicked, setIsClicked] = useState(false);
   const menuClickHandeler = () => setIsClicked(!isClicked);
-  const psClicked=()=>props.isClicked(true);
+  
   const homeClicked=()=>props.isClicked(false);
   return (
     <Navbar>
